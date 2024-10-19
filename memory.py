@@ -77,7 +77,7 @@ def main():
     )
 
     text_path = "examples/grocery.md"
-    text = open(text_path, "r").read()
+    text = open(text_path, "r", encoding="utf-8").read()
     retriever = SimpleTextRetriever.from_texts([text])
     rag_chain = make_rag_chain(model, retriever, rag_prompt=None)
     chain = create_memory_chain(model, rag_chain, chat_memory) | StrOutputParser()

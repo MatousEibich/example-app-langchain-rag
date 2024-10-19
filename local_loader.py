@@ -18,7 +18,7 @@ def load_txt_files(data_dir="./data"):
     paths = list_txt_files(data_dir)
     for path in paths:
         print(f"Loading {path}")
-        loader = TextLoader(path)
+        loader = TextLoader(path, encoding='utf8')
         docs.extend(loader.load())
     return docs
 
@@ -56,10 +56,10 @@ def get_document_text(uploaded_file, title=None):
 
 if __name__ == "__main__":
     example_pdf_path = "examples/healthy_meal_10_tips.pdf"
-    docs = get_document_text(open(example_pdf_path, "rb"))
+    docs = get_document_text(open(example_pdf_path, "rb", encoding="utf-8"))
     for doc in docs:
         print(doc)
-    docs = get_document_text(open("examples/us_army_recipes.txt", "rb"))
+    docs = get_document_text(open("examples/us_army_recipes.txt", "rb", encoding="utf-8"))
     for doc in docs:
         print(doc)
     txt_docs = load_txt_files("examples")

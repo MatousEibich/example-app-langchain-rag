@@ -1,0 +1,490 @@
+# Osobní údaje zaměstnance
+
+## Osobní údaje
+
+Zde se evidují veškeré osobní údaje zaměstnance, např. základní údaje, adresy, bankovní spojení, kontakty, zdravotní a sociální pojištění, dosažená vzdělání atd.
+
+## Základní údaje
+
+V této části jsou základní údaje zaměstnance, které byly vyplněné při jeho založení:
+
+- **„Jméno“ a „Příjmení“** – jméno a příjmení zaměstnance.
+- **„Titul před/za“** - pomocí rozbalovacího menu lze vybrat titul před jménem a titul za jménem.
+- **„Rodné číslo“** – v tomto poli probíhá kontrola správnosti zadaného rodného čísla.
+- **„Datum narození“** – doplní se automaticky po vyplnění rodného čísla (RČ). V případě nevyplnění RČ lze datum narození zadat přímým zápisem nebo pomocí rozbalovacího menu.
+- **„Pohlaví“** – doplní se automaticky podle rodného čísla. V případě nevyplnění RČ je nutné zakliknout „Nezadáno“. Tím se zaktivní pole „Pohlaví“ a pomocí rozbalovacího menu vyberete z možností: mužské, ženské a nezadáno.
+- **„Místo narození“** – lze doplnit místo narození.
+- **„Stát narození“** - pomocí rozbalovacího menu vyberete stát narození.
+- **„Rodné příjmení“** – pomocí tlačítka zadat rodné (předchozí) příjmení. Po uložení zaměstnance lze na kartě „Základní údaje“ - „Rodné příjmení“ zobrazit pomocí tlačítka „Seznam předchozích příjmení“ zaměstnance.
+- **„Státní příslušnost“** - pomocí rozbalovacího menu vyberete státní příslušnost.
+- **„Fotografie“** – zde je možné vložit zaměstnanci fotografii pomocí tlačítka „Přidat fotografii“. Po vložení se tlačítko zneaktivní a zaktivní se tlačítko pro editaci a tlačítko pro smazání nahrané fotografie.
+
+Pokud je organizace Služební úřad, zobrazí se pole „Evidenční číslo“, které slouží pro přidělování evidenčních čísel státním zaměstnancům.
+
+### Základní údaje zaměstnance - Nastavení identifikátorů
+
+- **„Osobní číslo“** – je vygenerováno automaticky a je takové, které následuje po posledním zadaném osobním čísle v aplikaci a lze ho změnit pomocí tlačítka „Upravit osobní číslo“.
+- **„Identifikátor“** – lze zadat unikátní kód zaměstnance.
+- **„Primární PPV“** – pomocí tlačítka vybrat primární PPV.
+- **„Jazyk výplatního lístku“** – vyberete z možností: Český jazyk, Anglický jazyk, Slovenský jazyk.
+- **„Způsob předání výpl. lístku“** – pomocí rozbalovacího menu lze vybrat: V elektronické podobě (web), V tištěné podobě, PDF soubor, PDF emailem.
+- **„Heslo pro výstupní sestavy“** – pomocí tlačítka zobrazit formulář pro zadání nového hesla.
+
+### Základní údaje zaměstnance - Další specifické údaje
+
+Záložka „Další údaje“ se zobrazuje v závislosti na nastavení definic uživatelských polí ve „Správě OKbase“ – „Konfigurace“ – „Uživatelská pole“. Na této kartě mohou být evidovány další potřebné údaje, např. velikost obuvi, konfekce apod.
+
+## Adresy
+
+V této části se evidují adresy zaměstnance:
+
+![Screenshot of address input form](screenshots/osobni_udaje_zamestnanec/adresy_01.png)
+
+### Adresy - Zadání nové adresy
+
+Pro zadání další adresy lze použít tlačítko „Přidat adresu“. Zobrazí se formulář „Varianta pro skupinu Parametry adres zaměstnance“, kde lze změnit „Hodnoty parametru“ a pokračujete pomocí tlačítka „Uložit“.
+
+V tomto kroku lze také založit pomocí tlačítka „Nová varianta“ novou variantu. Výběr „Varianty“ lze provést pomocí tlačítka „Výběr varianty“.
+
+![Screenshot of address variant selection](screenshots/osobni_udaje_zamestnanec/adresy_02.png)
+
+### Adresy - Úprava stávajících adres
+
+Zobrazí se formulář, kde doplníte „Název“ (žlutě podbarvené pole, které je povinné) a nastavíte parametry a dáte „Uložit“.
+
+Ve formuláři „Nový záznam“ doplníte potřebné údaje a uložíte pomocí tlačítka „Uložit“.
+
+### Adresy - Popis jednotlivých polí
+
+- **„Typ“** – pomocí rozbalovacího menu lze vybrat z možností: Trvalá adresa, Přechodná adresa, Adresa příjemce, Kontaktní adresa, Adresa pobytu v ČR.
+- **„Adresát“** – lze zadat adresáta.
+- **„Obec“** – pole pro zadání obce, povinný údaj.
+- **„Domovní číslo“** – zadání čísla popisného, případně evidenčního zakliknutím pole.
+- **„Část obce“** – zadání části obce.
+- **„Ulice/orient.č.“** – zadání názvu ulice, případně doplnění čísla orientačního.
+- **„PSČ“** – zadání poštovního směrovacího čísla.
+- **„Pošta“** – zadání pošty.
+- **„Okres“** – pomocí rozbalovacího menu lze vybrat okres.
+- **„Země“** – pomocí rozbalovacího menu lze vybrat zemi. Výběr lze také provést z „Číselníku – Země“ pomocí tlačítka „Výběr země“.
+- **„Poznámka“** – lze zadat libovolný text.
+
+### Adresy - Správa a úprava existujících adres
+
+Editaci adresy lze provést pomocí tlačítka „Upravit adresu“, případně smazat pomocí tlačítka „Smazat adresu“. Pomocí tlačítka „Kopírovat adresu“ lze záznam kopírovat a nadále s ním pracovat. Zadanou adresu lze pomocí tlačítka „Zobrazit na mapě“ zobrazit na mapě pomocí internetového prohlížeče.
+
+![Screenshot of address editing options](screenshots/osobni_udaje_zamestnanec/adresy_03.png)
+
+## Rodinní příslušníci
+
+V části „Rodinní příslušníci“ jsou evidovány údaje o rodinných příslušnících zaměstnance včetně jejich kontaktů:
+
+![Screenshot of family members input form](screenshots/osobni_udaje_zamestnanec/rodinni_prislusnici_01.png)
+
+Pro přidání rodinného příslušníka lze použít tlačítko „Přidat rodinného příslušníka“. Zobrazí se formulář „Nový záznam“, kde vyplníte potřebné údaje:
+
+![Screenshot of new family member form](screenshots/osobni_udaje_zamestnanec/rodinni_prislusnici_02.png)
+
+### Rodinní příslušníci - Popis jednotlivých polí
+
+- **„Jméno“** – zadání jména. Po jeho zadání se automaticky vyplní pohlaví. Pokud je jméno obourodé (např. Nikola), předvyplní se „Neuvedeno“. Pokud má osoba více jmen oddělených mezerou nebo pomlčkou, přebírá se pro určení pohlaví jméno před mezerou, resp. pomlčkou.
+- **„Příjmení“** – zadání příjmení.
+- **„Vztah“** – pomocí rozbalovacího menu lze vybrat z možností: Neurčeno, Vlastní dítě, Manžel/ka, Druh/Družka, Registrované partnerství, Rodič, Jiné dítě považované za vyživované, Vlastní dítě (pro daně nepovažované za vyživované).
+- **„Platnost“** – lze zadat platnost od-do.
+- **„Rodné číslo“** – v tomto poli probíhá kontrola správnosti zadaného rodného čísla.
+- **„Datum narození“** – doplní se automaticky po vyplnění rodného čísla (RČ). V případě nevyplnění RČ lze datum narození zadat přímým zápisem nebo pomocí rozbalovacího menu.
+- **„Pohlaví“** – doplní se automaticky podle rodného čísla. V případě nevyplnění RČ je nutné zakliknout „Nezadáno“. Tím se zaktivní pole „Pohlaví“ a pomocí rozbalovacího menu vyberete z možností: mužské, ženské a nezadáno.
+
+### Rodinní příslušníci - Zadávání kontaktů
+
+V záložce „Kontakty“ lze zadat pomocí tlačítka „Přidat kontakt“ kontakt rodinného příslušníka. Zobrazí se řádek, kde z předdefinovaného seznamu vyberete typ kontaktu, zadáte jeho „Hodnotu“, případně i „Prioritu“. 
+
+![Screenshot of contact input for family members](screenshots/osobni_udaje_zamestnanec/rodinni_prislusnici_03.png)
+
+U některých typů kontaktů lze přímo z detailu stiskem tlačítka „Otevřít externí aplikaci“ otevřít příslušnou externí aplikaci. Zrušit zadaný kontakt lze pomocí tlačítka „Smazat kontakt“.
+
+### Rodinní příslušníci - Ukládání a úprava záznamů
+
+Po zadání potřebných údajů použijete tlačítko „Uložit“.
+
+Editaci záznamu lze provést pomocí tlačítka „Upravit záznam“, případně smazat pomocí tlačítka „Smazat záznam“.
+
+## Bankovní spojení
+
+V této části se zobrazí bankovní spojení zadané při založení nového zaměstnance:
+
+![Screenshot of bank account input form](screenshots/osobni_udaje_zamestnanec/bankovni_spojeni_01.png)
+
+Pro přidání nového bankovního spojení lze použít tlačítko „Přidat bankovní spojení“:
+
+![Screenshot of new bank account form](screenshots/osobni_udaje_zamestnanec/bankovni_spojeni_02.png)
+
+### Bankovní spojení - Popis jednotlivých polí
+
+- **„Číslo účtu“** – zadání čísla účtu ve správném tvaru. Při vyplňování čísla účtu program automaticky kontroluje správnost podle pravidel daných vyhláškou České národní banky. V případě nesprávného čísla aplikace upozorní na chybu.
+- **„Banka“** – pomocí rozbalovacího menu vyberete konkrétní banku. Výběr lze provést i z „Číselníku – Banka“ pomocí tlačítka „Výběr banky“.
+- **„IBAN“** – slouží pro zadání mezinárodního čísla účtu.
+- **„Měna“** – pomocí rozbalovacího menu vyberete konkrétní měnu. Výběr lze případně provést z „Číselníku – Měna“.
+- **„Spec. symbol“** – lze zadat specifický symbol.
+- **„Název účtu“** – zadání názvu účtu, který se může použít při tvorbě platebního média.
+- **„Poznámka“** – lze zadat libovolný text.
+- **„Bankovní spojení je určeno pro platební styk“** – při zakliknutí pole bude účet veden jako primární a zároveň se bude nabízet v části „Způsob výplaty“.
+
+### Bankovní spojení - Správa a úprava záznamů
+
+Po zadání potřebných údajů použijete tlačítko „Uložit“.
+
+Editaci záznamu lze provést pomocí tlačítka „Upravit záznam“, případně smazat pomocí tlačítka „Smazat záznam“.
+
+Pomocí tlačítka „Nastavit zobrazení sloupců“ lze přizpůsobit, které informace budou v tabulce viditelné. Přesun položek provedete pomocí šipek z levé části formuláře doprava a naopak.
+
+![Screenshot of account editing options](screenshots/osobni_udaje_zamestnanec/bankovni_spojeni_03.png)
+
+---
+
+## Způsob výplaty
+
+V této části naleznete informaci o tom, jakým způsobem je zaměstnanci zasílána výplata:
+
+![Screenshot of payment method input form](screenshots/osobni_udaje_zamestnanec/zpusob_vyplaty_01.png)
+
+Pro zadání nového způsobu výplaty lze použít tlačítko „Přidat způsob výplaty“:
+
+![Screenshot of new payment method form](screenshots/osobni_udaje_zamestnanec/zpusob_vyplaty_02.png)
+
+### Způsob výplaty - Popis jednotlivých polí
+
+- **„Období platnosti“** – zvolíte období platnosti.
+- **„Způsob výplaty“** – pomocí rozbalovacího menu lze vybrat z možností: V hotovosti, Na účet zaměstnance, Na adresu zaměstnance – předvyplní se adresa trvalého pobytu. Vybrat lze i kontaktní adresu pomocí tlačítka „Výběr adresy“, pokud je zadaná v části „Adresy“.
+- **„Zadaný účet“** – zakliknutím pole lze pomocí rozbalovacího menu vybrat již zadaný účet.
+- **„Nový účet“** – zakliknutím pole se zaktivní pole pro zadání nového čísla účtu.
+- **„Číslo účtu“** – vyplnění čísla účtu ve správném tvaru. Aplikace automaticky hlídá správnost zadaného čísla.
+- **„Banka“** – pomocí rozbalovacího menu vyberete konkrétní banku. Výběr lze provést i z „Číselníku – Banka“ pomocí tlačítka „Výběr banky“.
+- **„IBAN“** – International Bank Account Number – slouží pro zadání mezinárodního čísla účtu.
+- **„Měna“** – pomocí rozbalovacího menu vyberete konkrétní měnu. Výběr lze provést i z „Číselníku – Měna“.
+- **„Var. symbol“** – pole pro zadání variabilního symbolu.
+- **„Konst. symbol“** – pole pro zadání konstantního symbolu.
+- **„Spec. symbol“** – pole pro zadání specifického symbolu.
+- **„Zpráva příkazci“** – pomocí tlačítka „Zobrazit číselník“ lze zobrazit číselník zástupných znaků, které se použijí pro definování částí zprávy.
+- **„Zpráva příjemci“** – podobně jako u příkazce, lze zobrazit číselník pro zprávu příjemci.
+- **„Název účtu“** – lze zadat název účtu.
+- **„Poznámka“** – lze zadat libovolný text.
+
+### Způsob výplaty - Správa a úprava záznamů
+
+Po zadání potřebných údajů použijete tlačítko „Uložit“.
+
+Editaci záznamu lze provést pomocí tlačítka „Upravit záznam“, případně smazat pomocí tlačítka „Smazat záznam“.
+
+![Screenshot of payment method editing options](screenshots/osobni_udaje_zamestnanec/zpusob_vyplaty_03.png)
+
+## Kontakty
+
+V této části jsou kontakty zadané při založení zaměstnance:
+
+![Screenshot of contact input form](screenshots/osobni_udaje_zamestnanec/kontakty_01.png)
+
+Pro zadání nového kontaktu lze použít tlačítko „Přidat kontakt“. Zobrazí se řádek, kde ve sloupci „Kontakt“ vyberete pomocí rozbalovacího menu typ kontaktu, případně pomocí tlačítka „Výběr typu kontaktu“ z „Číselníku – Typ kontaktu“. Doplníte „Hodnotu“ a „Prioritu“.
+
+![Screenshot of new contact form](screenshots/osobni_udaje_zamestnanec/kontakty_02.png)
+
+### Kontakty - Ukládání a správa záznamů
+
+Některé kontakty lze přímo otevřít pomocí externí aplikace (např. emailový klient nebo webový prohlížeč) pomocí tlačítka „Otevřít externí aplikaci“.
+
+Po zadání potřebných údajů použijete tlačítko „Uložit“.
+
+Editaci kontaktu lze provést pomocí tlačítka „Upravit kontakt“, případně smazat pomocí tlačítka „Smazat kontakt“.
+
+![Screenshot of contact editing options](screenshots/osobni_udaje_zamestnanec/kontakty_03.png)
+
+---
+
+## Průkazy
+
+V této části se evidují průkazy zaměstnance, např. Občanský průkaz, Řidičský průkaz, Zaměstnanecká karta atd.:
+
+![Screenshot of document input form](screenshots/osobni_udaje_zamestnanec/prukazy_01.png)
+
+Pro přidání průkazu lze použít tlačítko „Přidat průkaz“:
+
+![Screenshot of new document form](screenshots/osobni_udaje_zamestnanec/prukazy_02.png)
+
+### Průkazy - Popis jednotlivých polí
+
+- **„Typ“** – pomocí rozbalovacího menu lze vybrat z možností: Občanský průkaz, Cestovní pas, Řidičský průkaz, Povolení k zaměstnání, Zaměstnanecká karta, Karta vnitropodnikově převedeného zaměstnance, Modrá karta.
+- **„Číslo“** – doplnění čísla průkazu, povinný údaj.
+- **„Vydavatel“** – doplnění vydavatele průkazu.
+- **„Stát“** – pomocí rozbalovacího menu lze vybrat stát, kde byl doklad vydán, případně pomocí tlačítka „Výběr státu“ z „Číselníku – Země“.
+- **„Platnost“** – pomocí rozbalovacího menu vyberete platnost průkazu od-do.
+- **„Poznámka“** – lze zadat libovolný text.
+
+### Průkazy - Zvláštní pole pro řidičský průkaz
+
+Pro zadání řidičského průkazu je formulář rozšířen o možnost zadat skupiny řidičského oprávnění. Pomocí tlačítka „Detail řidičského oprávnění“ lze vybrat skupinu řidičského oprávnění.
+
+![Screenshot of driver’s license input form](screenshots/osobni_udaje_zamestnanec/prukazy_03.png)
+
+### Průkazy - Ukládání a správa záznamů
+
+Po zadání potřebných údajů použijete tlačítko „Uložit“.
+
+Editaci průkazu lze provést pomocí tlačítka „Upravit průkaz“, případně smazat pomocí tlačítka „Smazat průkaz“.
+
+![Screenshot of document editing options](screenshots/osobni_udaje_zamestnanec/prukazy_04.png)
+
+## Důchody
+
+V této části se evidují důchody, na které má zaměstnanec nárok. Zadané údaje se použijí pro daňové a jiné mzdové účely (např. tento údaj se přenáší do formuláře „Zdravotní a sociální pojištění“).
+
+![Screenshot of pension input form](screenshots/osobni_udaje_zamestnanec/duchody_01.png)
+
+### Důchody - Popis jednotlivých polí
+
+- **„Od“ - „Do“** – pomocí rozbalovacího menu vyberete datum přiznání důchodu.
+- **„Druh důchodu“** – pomocí rozbalovacího menu nebo tlačítka „Výběr důchodu“ z „Číselníku – Typ důchodu“ vyberete typ důchodu.
+- **„Vyplácející orgán“** – vyberete pomocí rozbalovacího menu nebo tlačítka „Výběr orgánu“ z „Číselníku – Sociální pojišťovna“.
+- **„Stát“** – vyberete pomocí rozbalovacího menu nebo tlačítka „Výběr státu“ z „Číselníku – Země“.
+
+### Důchody - Kontrola a správa záznamů
+
+Aplikace kontroluje, zda zadaný důchod koresponduje se zadaným zdravotním stavem a také zda se nepřekrývá s již zadaným důchodem stejného typu.
+
+Po zadání potřebných údajů použijete tlačítko „Uložit“.
+
+Editaci záznamu lze provést pomocí tlačítka „Upravit záznam“, případně smazat pomocí tlačítka „Smazat záznam“.
+
+![Screenshot of pension editing options](screenshots/osobni_udaje_zamestnanec/duchody_02.png)
+
+---
+
+## Zdravotní a sociální pojištění
+
+V této části se zobrazují zákonná pojištění zaměstnance, tj. zdravotní, sociální, případně cizozemské sociální pojištění.
+
+![Screenshot of health and social insurance input form](screenshots/osobni_udaje_zamestnanec/pojisteni_01.png)
+
+### Zdravotní pojištění - Popis a správa záznamů
+
+- **„Zdravotní pojištění“** – automaticky vyplněná zdravotní pojišťovna, pokud byla vyplněna ve vstupních údajích. V opačném případě lze zdravotní pojišťovnu založit pomocí tlačítka „Přidat pojišťovnu“. Zobrazí se řádek, kde vyplníte datum „Od“, případně „Do“, a pomocí rozbalovacího menu vyberete zdravotní pojišťovnu. Číslo pojištěnce je vyplněno automaticky a lze ho v této části změnit.
+- **„Důvod platby pojištění státem“** – pokud nebyl zadán v předchozím kroku, lze přidat pomocí tlačítka „Přidat důvod“. Zobrazí se řádek, kde vyplníte datum „Od“, případně „Do“, a pomocí rozbalovacího menu vyberete důvod platby pojištění státem.
+
+### Sociální pojištění - Popis a správa záznamů
+
+- **„Sociální pojištění“** – automaticky vyplněné číslo pojištěnce, které lze v této části změnit.
+- **„Cizozemské sociální pojištění“** – lze vybrat z následujících možností: Není, Poslední, Současné.
+
+Po zadání potřebných údajů použijete tlačítko „Uložit“.
+
+![Screenshot of health and social insurance editing options](screenshots/osobni_udaje_zamestnanec/pojisteni_02.png)
+
+## Hromadné oznámení zaměstnavatele
+
+V této části jsou přehledy všech hlášení na zdravotní pojišťovny pro daného zaměstnance:
+
+![Screenshot of mass employer report form](screenshots/osobni_udaje_zamestnanec/hromadne_oznameni_01.png)
+
+Hlášení se většinou generuje automaticky podle aktuálních údajů zadaných v aplikaci a lze ho prohlížet pomocí tlačítka „Zobrazit hlášení“.
+
+Pokud formulář nebyl automaticky vygenerován, lze ho zadat ručně pomocí tlačítka „Přidat hlášení“. Zobrazí se formulář „Nový záznam“:
+
+![Screenshot of new mass employer report form](screenshots/osobni_udaje_zamestnanec/hromadne_oznameni_02.png)
+
+### Hromadné oznámení zaměstnavatele - Popis jednotlivých polí
+
+- **„Kód oznámení“** – pomocí rozbalovacího menu vyberete kód oznámení.
+- **„Data změny“** – pole pro datum změny.
+
+### Hromadné oznámení zaměstnavatele - Správa záznamů
+
+Po zadání potřebných údajů použijete tlačítko „Uložit“.
+
+Jednotlivé záznamy lze editovat pomocí tlačítka „Upravit záznam“ nebo smazat pomocí tlačítka „Smazat záznam“.
+
+![Screenshot of mass employer report editing options](screenshots/osobni_udaje_zamestnanec/hromadne_oznameni_03.png)
+
+---
+
+## Oznámení o nástupu do zaměstnání
+
+V této části jsou přehledy všech oznámení o nástupu do zaměstnání (dále jen ONZ) pro daného zaměstnance:
+
+![Screenshot of employment commencement notice form](screenshots/osobni_udaje_zamestnanec/onz_01.png)
+
+Tato oznámení se generují automaticky podle aktuálních údajů zadaných v aplikaci. Pokud se formulář nevygeneruje automaticky, lze ho zadat ručně pomocí tlačítka „Přidat ONZ“. Zobrazí se formulář „Nový záznam“:
+
+![Screenshot of new employment commencement notice form](screenshots/osobni_udaje_zamestnanec/onz_02.png)
+
+### Oznámení o nástupu do zaměstnání - Popis jednotlivých polí
+
+- **„Typ akce“** – pomocí rozbalovacího menu vyberete typ akce.
+- **„OSSZ“** – pomocí rozbalovacího menu vyberete příslušnou OSSZ.
+- **„Datum“** – zadání data.
+
+### Oznámení o nástupu do zaměstnání - Export a správa záznamů
+
+Po zadání potřebných údajů použijete tlačítko „Uložit“.
+
+ONZ lze exportovat do XML pomocí tlačítka „Exportovat do XML“.
+
+![Screenshot of ONZ export options](screenshots/osobni_udaje_zamestnanec/onz_03.png)
+
+## Oznámení OZUSPOJ
+
+V této části naleznete „Oznámení záměru uplatňovat slevu na SP podle §7a“:
+
+![Screenshot of OZUSPOJ notice input form](screenshots/osobni_udaje_zamestnanec/ozuspoj_01.png)
+
+Pro přidání nového oznámení lze použít tlačítko „Přidat oznámení“. K dispozici jsou dvě možnosti:
+
+- **„Nové OZUSPOJ / e-Podání“**, které se odešle přímo na ČSSZ.
+- **„Nové OZUSPOJ / export XML“**, které vytvoří XML soubor. Tento soubor lze uložit na disk a odeslat jiným způsobem (např. datovou schránkou).
+
+![Screenshot of new OZUSPOJ form](screenshots/osobni_udaje_zamestnanec/ozuspoj_02.png)
+
+### Oznámení OZUSPOJ - Popis jednotlivých polí
+
+- **„Typ podání“** – pomocí rozbalovacího menu lze vybrat z možností: Uplatnění záměru, Skončení záměru, Storno záměru.
+- **„Datum oznámení“** – pomocí rozbalovacího menu lze vybrat datum oznámení.
+- **„Mzdová účtárna“** – pomocí rozbalovacího menu lze vybrat konkrétní mzdovou účtárnu.
+- **„Skript pro název souboru“** – umožňuje zadat název exportovaného souboru.
+- **„Sestavu vyhotovil“** – do hodnoty parametru lze vepsat text (jméno tvůrce sestavy).
+- **„Telefon“** – pole pro zadání telefonního čísla.
+- **„E-mail“** – pole pro zadání emailové adresy.
+- **„Poznámka“** – pole pro zadání poznámky.
+
+### Oznámení OZUSPOJ - Ukládání a odesílání
+
+Pokračujete tlačítkem „Uložit“.
+
+V případě, že odeslání proběhlo úspěšně, je uživatel informován zprávou.
+
+![Screenshot of successful OZUSPOJ submission](screenshots/osobni_udaje_zamestnanec/ozuspoj_03.png)
+
+---
+
+## Dosažená vzdělání
+
+V této části se zobrazují všechna dosažená vzdělání, kterého zaměstnanec dosáhl:
+
+![Screenshot of educational records input form](screenshots/osobni_udaje_zamestnanec/dosazena_vzdelani_01.png)
+
+Pro zadání dosaženého vzdělání lze použít tlačítko „Přidat vzdělání“. Zobrazí se formulář „Nový záznam“, kde vyplníte potřebné údaje:
+
+![Screenshot of new education record form](screenshots/osobni_udaje_zamestnanec/dosazena_vzdelani_02.png)
+
+### Dosažená vzdělání - Popis jednotlivých polí
+
+- **„Dosažené vzdělání“** – pomocí rozbalovacího menu nebo tlačítka „Výběr vzdělání“ z „Číselníku – Kategorie vzdělání“ vyberete dosažené vzdělání. V případě, že vzdělání nebylo ukončeno, zakliknete pole „Nedokončeno“.
+- **„Období studia“** – pomocí rozbalovacího menu vyberete období „Od“ – „Do“.
+- **„Způsob ukončení“** – pomocí rozbalovacího menu nebo tlačítka „Výběr způsobu“ z „Číselníku – Způsob ukončení vzdělání“ vyberete způsob ukončení.
+- **„Obor vzdělání“** – pomocí rozbalovacího menu nebo tlačítka „Výběr oboru“ vyberete obor vzdělání.
+- **„Kód ISPV“** – pole pro zadání kódu.
+- **„Škola“** – doplníte název školy nebo ji lze zvolit z partnerů. Výběr partnera je možný pomocí tlačítka „Výběr školy“.
+- **„Poznámka“** – lze zadat libovolný text.
+
+### Dosažená vzdělání - Ukládání a správa záznamů
+
+Po zadání potřebných údajů použijete tlačítko „Uložit“.
+
+Editaci vzdělání lze provést pomocí tlačítka „Upravit záznam“, případně smazat pomocí tlačítka „Smazat záznam“.
+
+![Screenshot of education editing options](screenshots/osobni_udaje_zamestnanec/dosazena_vzdelani_03.png)
+
+## Předchozí zaměstnání
+
+V této části se evidují předchozí zaměstnání zaměstnance, která byla zadána při jeho založení:
+
+![Screenshot of previous employment records input form](screenshots/osobni_udaje_zamestnanec/predchozi_zamestnani_01.png)
+
+Pro zadání dalšího předchozího zaměstnání lze použít tlačítko „Přidat zaměstnání“. Zobrazí se formulář „Nový záznam“, kde vyplníte potřebné údaje:
+
+![Screenshot of new previous employment form](screenshots/osobni_udaje_zamestnanec/predchozi_zamestnani_02.png)
+
+### Předchozí zaměstnání - Popis jednotlivých polí
+
+- **„Název“** – doplníte název předchozího zaměstnavatele nebo ho lze zvolit z partnerů.
+- **„Partner“** – pomocí rozbalovacího menu nebo tlačítka „Výběr partnera“ vyberete partnera nastaveného v části „Nástroje“ – „Nastavení organizace“ – „Partneři“.
+- **„Období zaměstnání“** – pomocí rozbalovacího menu vyberete období „Od“ – „Do“.
+- **„Celková praxe“** – vypočte se automaticky dle zadaného období zaměstnání.
+- **„Započítat do pracovního jubilea“** – při zakliknutí pole se pro účely jubilea daná praxe připočte k praxi v organizaci.
+- **„Průběh zaměstnání“** – lze zadat pomocí tlačítka „Přidat průběh“. Zobrazí se řádek, ve kterém vyplníte datum „Od“ – „Do“, „Funkci“, „CZ-ISCO“ pomocí rozbalovacího menu nebo tlačítka „Výběr CZ-ISCO“, případně „Poznámku“.
+
+### Předchozí zaměstnání - Správa záznamů
+
+Po zadání potřebných údajů použijete tlačítko „Uložit“.
+
+Již zadané předchozí zaměstnání lze pomocí tlačítka „Upravit záznam“ editovat, případně smazat pomocí tlačítka „Smazat záznam“.
+
+![Screenshot of previous employment editing options](screenshots/osobni_udaje_zamestnanec/predchozi_zamestnani_03.png)
+
+---
+
+## Nastavení zaměstnance
+
+V této části lze upravit mzdové parametry zaměstnance:
+
+![Screenshot of employee settings form](screenshots/osobni_udaje_zamestnanec/nastaveni_zamestnance_01.png)
+
+Pomocí ikony nebo dvojklikem na příslušný řádek otevřete formulář „Detail mzdového parametru“, kde můžete změnit nastavení parametrů:
+
+### Nastavení zaměstnance - Popis jednotlivých polí
+
+- **„Minimální zdravotní pojištění“** – Ano/Ne – Defaultně nastavena „Hodnota“ na ANO. To znamená, že pokud výše výdělku bude nižší než minimální výše vyměřovacího základu pro platbu ZP, systém dopočítá pojistné na ZP do výše minimální mzdy.
+- **„Pojistné na důchodové spoření“** – Tento parametr byl zrušen k 31.12.2015.
+- **„Člen statutárního orgánu“** – Umožňuje nastavit, zda je zaměstnanec členem statutárního orgánu, což je důležité pro statistické účely.
+- **„Zahrnovat osobu povinného do výpočtu zákonných srážek“** – Ano/Ne – Tento parametr umožňuje určit, zda se zaměstnanec zahrne do výpočtu nezabavitelné částky v případě srážek.
+- **„Počet vyživovaných osob pro zákonné srážky“** – Zadejte počet vyživovaných osob, které se zahrnou do výpočtu nezabavitelné částky.
+- **„Srazit dlužnou zálohu“** – Ano/Ne – Nastavte, zda se má automaticky srazit případná dlužná částka z výplaty zaměstnance.
+- **„Ošetřovné (samoživitel)“** – V případě zaměstnance samoživitele označte, aby systém kontroloval délku ošetřovného na 16 dní místo 9 dní.
+
+### Nastavení zaměstnance - Ukládání a správa záznamů
+
+Po provedení změn použijte tlačítko „Uložit“ pro uložení nových hodnot.
+
+![Screenshot of employee settings editing options](screenshots/osobni_udaje_zamestnanec/nastaveni_zamestnance_02.png)
+
+## Poznámky a úkoly
+
+Tato část obsahuje seznam všech poznámek a úkolů, které byly přiřazeny k zaměstnanci.
+
+![Screenshot of notes and tasks input form](screenshots/osobni_udaje_zamestnanec/poznamky_ukoly_01.png)
+
+Pro přidání nové poznámky nebo úkolu použijte tlačítko „Přidat poznámku/úkol“. Zobrazí se formulář „Nový záznam“, kde vyplníte jednotlivá pole:
+
+- **„Název“** – Zadejte název poznámky nebo úkolu.
+- **„Popis“** – Podrobnější popis obsahu poznámky nebo úkolu.
+- **„Soukromé“** – Označením tohoto pole zůstane poznámka/úkol viditelná pouze tomu, kdo ji vytvořil.
+- **„Oblast“** – Pomocí rozbalovacího menu vyberte oblast, ke které se poznámka/úkol vztahuje.
+- **„Termín splnění“** – Datum, do kdy má být úkol splněn.
+- **„Ke konci PPV“** – Nastaví termín splnění na datum konce pracovněprávního vztahu.
+- **„Připomínat dní dopředu“** – Možnost nastavit upozornění před termínem splnění.
+- **„Řešitel“** – Vyberte zodpovědnou osobu z dostupného seznamu.
+- **„Datum vyřešení“** – Datum, kdy byla poznámka nebo úkol dokončena.
+- **„Poznámka k vyřešení“** – Doplňující text k vyřešenému úkolu.
+
+### Poznámky a úkoly - Správa záznamů
+
+Po zadání údajů klikněte na tlačítko „Uložit“.
+
+Editaci poznámky nebo úkolu lze provést pomocí tlačítka „Upravit záznam“, případně smazat pomocí tlačítka „Smazat záznam“.
+
+![Screenshot of notes and tasks editing options](screenshots/osobni_udaje_zamestnanec/poznamky_ukoly_02.png)
+
+Již zadané poznámky/úkoly lze pomocí ikony „Upravit záznam“ editovat, případně vybranou poznámku/úkol pomocí ikony „Smazat záznam“ smazat. Náhled ve spodní části formuláře zobrazíte pomocí ikony „Zobrazit náhled“. Seznam poznámek/úkolů lze pro další práci exportovat do Excelu pomocí ikony „Export do Excelu“ a údaje aktualizovat pomocí ikony „Aktualizovat záznamy“.
+
+![Screenshot of notes and tasks management options](screenshots/osobni_udaje_zamestnanec/poznamky_ukoly_03.png)
+
+### Poznámky a úkoly - Filtrování a export dat
+
+Pomocí ikony „Filtr“ lze spustit filtr pro zobrazování pouze těch poznámek/úkolů, které vyhovují nastaveným parametrům. Výběr parametrů lze provést pomocí rozbalovacího menu:
+
+- **Zobrazit naposledy nastavený filtr** – zobrazí data podle naposledy uloženého filtru.
+- **Zobrazit všechny poznámky/úkoly** – zobrazí všechny záznamy bez použití filtrů.
+- **Uložit filtr** – zobrazí formulář pro zadání názvu filtru. Po potvrzení tlačítkem „Uložit filtr“ se uložený filtr poté bude nabízet ve filtrech.
+- **Upravit uložený filtr** – zobrazí formulář pro editaci nastavených filtrů.
+
+![Screenshot of filter management](screenshots/osobni_udaje_zamestnanec/poznamky_ukoly_04.png)
+
+Po zadání potřebných parametrů použijte tlačítko „Uložit“ pro uložení změn a aplikaci filtru na záznamy. Pro zobrazení všech záznamů bez použití filtru zvolte možnost „Zrušit filtr“.
+
+![Screenshot of applying filters](screenshots/osobni_udaje_zamestnanec/poznamky_ukoly_05.png)

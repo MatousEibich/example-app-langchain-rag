@@ -6,11 +6,11 @@ from ensemble import ensemble_retriever_from_docs
 from full_chain import create_full_chain, ask_question
 from local_loader import load_txt_files
 
-st.set_page_config(page_title="LangChain & Streamlit RAG")
-st.title("LangChain & Streamlit RAG")
+st.set_page_config(page_title="OKBase asistent")
+st.title("OKBase asistent")
 
 
-def show_ui(qa, prompt_to_user="How may I help you?"):
+def show_ui(qa, prompt_to_user="Jak vám můžu pomoci?"):
     if "messages" not in st.session_state.keys():
         st.session_state.messages = [{"role": "assistant", "content": prompt_to_user}]
 
@@ -28,7 +28,7 @@ def show_ui(qa, prompt_to_user="How may I help you?"):
     # Generate a new response if last message is not from assistant
     if st.session_state.messages[-1]["role"] != "assistant":
         with st.chat_message("assistant"):
-            with st.spinner("Thinking..."):
+            with st.spinner("Analyzuji..."):
                 response = ask_question(qa, prompt)
                 st.markdown(response.content)
         message = {"role": "assistant", "content": response.content}
@@ -38,7 +38,7 @@ def show_ui(qa, prompt_to_user="How may I help you?"):
 @st.cache_resource
 def get_retriever(openai_api_key=None):
     docs = load_txt_files()
-    embeddings = OpenAIEmbeddings(openai_api_key=openai_api_key, model="text-embedding-3-small")
+    embeddings = OpenAIEmbeddings(openai_api_key=openai_api_key)
     return ensemble_retriever_from_docs(docs, embeddings=embeddings)
 
 
@@ -87,8 +87,8 @@ def run():
 
     if ready:
         chain = get_chain(openai_api_key=openai_api_key, huggingfacehub_api_token=huggingfacehub_api_token)
-        st.subheader("Ask me questions about this week's meal plan")
-        show_ui(chain, "What would you like to know?")
+        st.subheader("Zeptejte se mě na otázky ohledně Osobních údajů zaměstnance")
+        show_ui(chain, "Co by vás zajímalo?")
     else:
         st.stop()
 

@@ -69,7 +69,7 @@ def main():
 
     print(f"PDF path is {local_pdf_path}")
 
-    with open(local_pdf_path, "rb") as pdf_file:
+    with open(local_pdf_path, "rb", encoding='utf-8') as pdf_file:
         docs = get_document_text(pdf_file, title="Analysis of Logic")
 
     texts = split_documents(docs)

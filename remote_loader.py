@@ -37,7 +37,7 @@ def download_file(url, filename=None):
 
     full_path = os.path.join(CONTENT_DIR, filename)
 
-    with open(full_path, mode="wb") as f:
+    with open(full_path, mode="wb", encoding='utf-8') as f:
         f.write(response.content)
         download_path = os.path.realpath(f.name)
     print(f"Downloaded file {filename} to {download_path}")
@@ -62,7 +62,7 @@ def main():
     math_analysis_of_logic_by_boole = "https://www.gutenberg.org/files/36884/36884-pdf.pdf"
     local_pdf_path = download_file(math_analysis_of_logic_by_boole)
 
-    with open(local_pdf_path, "rb") as pdf_file:
+    with open(local_pdf_path, "rb", encoding='utf-8') as pdf_file:
         docs = get_document_text(pdf_file, title="Analysis of Logic")
 
     for doc in docs:

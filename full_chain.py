@@ -13,13 +13,23 @@ from rag_chain import make_rag_chain
 
 def create_full_chain(retriever, openai_api_key=None, chat_memory=ChatMessageHistory()):
     model = get_model("ChatGPT", openai_api_key=openai_api_key)
-    system_prompt = """You are a helpful AI assistant for busy professionals trying to improve their health.
-    Use the following context and the users' chat history to help the user:
-    If you don't know the answer, just say that you don't know. 
+    system_prompt = """
+    Jsi asistent pro odpovídání na otázky nad technickým manuálem pro HR systém OKBase.
+    Předpokládej, že všechny dotazy se týkají tohoto systému. Pokud je jasné, že se systému netýkají, odmítni odpovědět.
+    Níže jsou části dokumentace získané pomocí Retrieval metod.
+    Tvým prvním úkolem je rozhodnout, které části dokumentace jsou relevantní.
+    Ty, které vyhodnotíš jako irelevantní dále nezohledňujeme.
+    Při vytváření odpovědi musíš spojit relevantní části dohromady, pokud je to možné, a nevytvářet žádné nové formulace – zachovej původní text.
+    Pokud relevantní části obsahují odkazy na screenshoty, přidej tyto odkazy na konec odpovědi.
+    Je ale důležité, aby se jednalo pouze o screenshoty z relevantních částí, irelevantní screenshoty nás samozřejmě nezajímají.
+    Pokud je dotaz nejednoznačný nebo moc obecný, polož objasňující otázky pro upřesnění dotazu, než odpovíš.
+    Příkladem může být například dotaz 'Jak zadám adresu?' - tento dotaz je příliš obecný, protože adresa se do HR systému OKBase zadává na sposutě různých míst a je tedy potřeba ujasnit, co přesně uživatel myslí.
     
-    Context: {context}
+    Získané části dokumentace:
+    {context}
     
-    Question: """
+    VŽDY ODPOVÍDEJ V ČESKÉM JAZYCE.
+    """
 
     prompt = ChatPromptTemplate.from_messages(
         [
